@@ -17,4 +17,16 @@ class Person
  
  
  
- 
+ class Person
+   @job = job
+   
+   def job
+     @job
+   end 
+   def job=(new_job)
+     @job = new_job
+   end 
+    
+  singer = Person.new 
+  singer.job = ("")
+ end
