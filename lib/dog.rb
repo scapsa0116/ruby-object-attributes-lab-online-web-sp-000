@@ -1,8 +1,8 @@
 require "pry"
 class Dog
- def initialize(name)
+# def initialize(name)
   @name = name
- end
+# end
  
 
  def name 
@@ -12,9 +12,10 @@ class Dog
  def name=(new_name)
     @name = new_name
   end
+  
   fido = Dog.new
   fido.name = ("Fido")
  
-puts fido.name
+   puts fido.name
  
 end
