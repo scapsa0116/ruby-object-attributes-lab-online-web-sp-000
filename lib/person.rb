@@ -18,7 +18,7 @@ class Person
  
  
  class Person
-   @job = beyonce
+   @job = job
    
    def job
      @job
