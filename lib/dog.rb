@@ -3,7 +3,7 @@ class Dog
 # def initialize(name)
   @name = name
 # end
- 
+ @breed = breed
 
  def name 
   @name
@@ -15,7 +15,17 @@ class Dog
   
   fido = Dog.new
   fido.name = ("Fido")
- 
-   puts fido.name
+  puts fido.name
+  
+  def breed 
+    @breed 
+  end 
+  
+  def breed=(new_breed)
+    @breed = new_breed
+  end
+  
+  snoopy = Dog.new 
+  snoopy.breed = 
  
 end
