@@ -12,5 +12,8 @@ class Dog
  def name=(new_name)
     @name = new_name
   end
+  fido = Person.new("Fido")
+ 
+fido.name
  
 end
