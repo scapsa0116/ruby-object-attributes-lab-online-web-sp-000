@@ -28,5 +28,6 @@ class Person
    end 
     
   singer = Person.new 
-  singer.job = ("")
+  singer.job = ("Singer")
+  puts singer.job 
  end
