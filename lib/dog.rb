@@ -31,4 +31,3 @@ def name
   snoopy.breed = ("Beagle")
   puts snoopy.breed
  
-end
