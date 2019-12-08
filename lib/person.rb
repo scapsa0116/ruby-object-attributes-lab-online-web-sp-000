@@ -29,7 +29,7 @@ class Person
      @job = new_job
    end 
     
-  # beyonce = Person.new 
+  beyonce = Person.new 
   beyonce.job = ("Singer")
   puts beyonce.job 
  end
