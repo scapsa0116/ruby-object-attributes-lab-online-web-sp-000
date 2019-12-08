@@ -14,7 +14,7 @@ class Person
  beyonce.name = ("Beyonce")
  puts beyonce.name
  end
- end
+ 
  
  
  
