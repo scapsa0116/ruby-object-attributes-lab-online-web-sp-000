@@ -10,4 +10,5 @@ class Person
    @name = new_name
  end 
  
- 
+ beyonce = Person.new 
+ beyonce.name = 
