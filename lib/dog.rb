@@ -15,6 +15,7 @@ def name
   fido = Dog.new
   fido.name = ("Fido")
   puts fido.name
+end
   
   
   class Dog
@@ -30,4 +31,4 @@ def name
   snoopy = Dog.new 
   snoopy.breed = ("Beagle")
   puts snoopy.breed
- 
+ end
