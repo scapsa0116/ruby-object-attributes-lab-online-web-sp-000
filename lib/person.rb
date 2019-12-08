@@ -13,4 +13,4 @@ class Person
  beyonce = Person.new 
  beyonce.name = ("Beyonce")
  puts beyonce.name
- 
+ end
