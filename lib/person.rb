@@ -28,7 +28,7 @@ class Person
      @job = new_job
    end 
     
-  singer = Person.new 
-  singer.job = ("Singer")
-  puts singer.job 
+  beyonce = Person.new 
+  beyonce.job = ("Singer")
+  puts beyonce.job 
  end
